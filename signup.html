@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="./style3.css">
+    <style>
+        body{
+            background-image: url(https://images.pexels.com/photos/1532771/pexels-photo-1532771.jpeg?auto=compress&cs=tinysrgb&w=600);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p><input type="text" placeholder="Enter First name" name="uname" required></p>
+        <p><input type="text" placeholder="Enter middle name" name="uname" required><br>
+        <p><input type="text" placeholder="Enter last name" name="uname" required><br>
+        <p><input type="date" placeholder="Enter date of birth" name="date" required><br>
+            <label for="gender">Gender</label>
+            <select name="gender" id="gender">
+            <option>choose option</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            </select>
+            <p><input type="email" placeholder="Enter your email" name="email" required></p>
+            <p><input type="password" placeholder="Enter Password" name="psw" required></p>
+            <input type="password" placeholder="ReEnter Password" name="password" required></p>
+        <input type="button" onclick="window.location.href='./login.html';" value="Sign up" />
+        <p>If already have an account? please <button>Login</button></p>
+    </div>
+</body>
+</html>

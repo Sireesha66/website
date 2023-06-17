@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payment details</title>
+    <link rel="stylesheet" href="./style3.css">
+    <style>
+        body{
+            background-image: url(https://images.pexels.com/photos/50987/money-card-business-credit-card-50987.jpeg?auto=compress&cs=tinysrgb&w=600);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        }
+        .order {
+float: right;
+        }
+    </style>
+</head>
+<body>
+    <h1><center>Payment Details</center></h1>
+    <div class="payment">
+        <p>Name :  <input type="text" placeholder="Enter your name" name="uname" required></p>
+        <p>Address : <input type="text" placeholder="Enter your address" name="address" required></p>
+        <p>City : <input type="text" placeholder="city name" name="city" required></p>
+        <p>State : <input type="state" placeholder="Enter your state" name="state" required></p>
+        <p>Mobile :<input type="text" placeholder="Mobile Number" name="number" required></p>
+        <p>Email : <input type="email" placeholder="Enter your Email" name="email" required></p>
+        <p>Alternate : <input type="text" placeholder=" Alternate Mobile Number" name="number"></p>
+        <select>
+        <label for="Payment-Method">Payment-Method</label>
+        <lable id="Payment-Method" requid></lable>
+        <option value="">select a payment method</option>
+        <option value="Phonepe">Phonepe</option>
+        <option value="Gpay">Gpay</option>
+        <option value="credit-card">credit-card</option>
+        <option value="Debit-card">Debit-card</option>
+        <option value="COD">COD</option><br><br>
+        </select>
+        <div class="order">
+        <p><input type="button" onclick="window.location.href='./confirm.html';" value="Confirm Order" /></p>
+        </div>
+    </div>
+</body>
+</html>
